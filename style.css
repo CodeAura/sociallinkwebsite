@@ -56,6 +56,11 @@ body{
 .container{
     width: 30em;
 }
+@media only screen and (max-width: 667px) {
+    .container {
+        scale: 1.6;
+    }
+}
 .head__section video{
     display: block;
     margin-top: 2;
@@ -168,11 +173,6 @@ body{
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.);
 } 
-@media only screen and (max-width: 549px) {
-    .container{
-        width: 88vw;
-    }
-  }
   .input {
     color: #fff;
 }
