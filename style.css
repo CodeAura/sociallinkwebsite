@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 	height: -webkit-fill-available;
 }
-a{
+a {
     text-decoration: none;
 }
 body{
@@ -56,9 +56,9 @@ body{
 .container{
     width: 30em;
 }
-@media only screen and (max-width: 667px) {
-    .container {
-        scale: 1.6;
+@media only screen and (max-width: 390px) {
+    body {
+        transform: scale(3) rotateX(0);
     }
 }
 .head__section video{
@@ -132,7 +132,7 @@ body{
     transform: scale(1.);
 }
 .social__links ul .telegram:hover {
-    box-shadow:0 200px 100px -100px  #0088cc inset;
+    box-shadow:0 200px 100px -100px  #121212 inset;
     transition: 1s ease,box-shadow 2s ease;
     -ms-transform: scale(0.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
